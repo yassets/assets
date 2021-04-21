@@ -1,0 +1,394 @@
+.fbcommentscontainer {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.fbConnectWidgetFooter {
+	bottom: 0;
+	cursor: default;
+	position: absolute;
+	width: 100%;
+}
+.fbConnectWidgetFooter .fbFooterBorder {
+	border-top: 1px solid #ccc;
+	margin: 0 6px;
+	padding: 4px 3px;
+}
+.DOMControl_placeholder {
+	color: #777;
+}
+.fbFeedbackContent {
+	-webkit-text-size-adjust: none;
+}
+.fbFeedbackContent .composerHider {
+	border-bottom: 0 solid #ccc;
+	border-top: 1px solid #ccc;
+	margin: 0;
+	padding: 9px 10px 7px;
+}
+.fbFeedbackContent .composerHider .uiSelector {
+	margin: -3px 1px;
+}
+.fbFeedbackContent .composerHider .uiSelector .uiSelectorButton,
+.fbFeedbackContent .composerHider .uiSelector .uiSelectorButton:active,
+.fbFeedbackContent .composerHider .uiSelector .uiSelectorButton:focus,
+.fbFeedbackContent .composerHider .uiSelector .uiSelectorButton:hover {
+	background-repeat: no-repeat;
+	background-position: right -202px;
+	background-color: transparent;
+	border: none;
+	-webkit-box-shadow: none;
+	margin: 0;
+	outline: 0;
+	padding: 2px 20px 2px 0;
+}
+.fbFeedbackContent .composerHider a {
+	font-weight: 700;
+}
+.fbFeedbackContent .indicator {
+	float: left;
+	margin: 10px 0 0 -45px;
+	position: absolute;
+}
+.fbFeedbackContent .postContent .action_links {
+	margin-bottom: 8px;
+}
+.fbFeedbackContent .postBlingBox {
+	border: none;
+	bottom: 1px;
+	cursor: text;
+	padding: 0;
+	position: relative;
+}
+.fbFeedbackContent .postBlingBox:hover {
+	background-color: transparent;
+	border: none;
+}
+.fbFeedbackContent {
+	min-height: 160px;
+}
+.fbFeedbackContent .fbFeedbackPosts {
+	padding: 0 0 0 10px;
+}
+.fbFeedbackContent .profileName {
+	font-size: 11px;
+}
+.fbFeedbackContent .fbFeedbackPost {
+	border: solid #e2e2e2;
+	border-width: 1px 0 0;
+	clear: both;
+	padding-bottom: 0 !important;
+	padding-top: 10px;
+}
+.fbFeedbackContent li.fbTopLevelComment:first-of-type {
+	border-width: 0;
+}
+.fbFeedbackContent li.fbTopLevelComment:last-of-type {
+	margin-bottom: -5px;
+}
+.fbFeedbackReplies .fbFeedbackPost {
+	border-width: 0 0 1px;
+	border-color: #e9e9e9;
+}
+.postReplies {
+	margin-top: 8px;
+}
+.fbFeedbackPost {
+	position: relative;
+}
+.fbFeedbackPost .postContent {
+	margin-top: 5px;
+}
+.fbFeedbackPost .postText {
+	color: #1a1a1a;
+	line-height: 14px;
+	margin: 0 28px 5px 0;
+}
+.fbFeedbackPost .postActor {
+	background-color: #ededed;
+	margin-bottom: 8px;
+	margin-right: 11px;
+}
+.fbFeedbackContent .fbConnectWidgetFooter {
+	position: static;
+}
+.fbFeedbackContent .fbConnectWidgetFooter .fbFooterBorder {
+	margin: 5px 0 0;
+}
+.fbTopLevelComment .fbFeedbackReplies .fbCommentReply {
+	border-width: 1px 0 0;
+}
+.uiHeader h4 {
+	color: #333;
+	font-size: 11px;
+}
+.uiHeader .uiHeaderTitle {
+	outline: 0;
+}
+.uiHeaderTopBorder {
+	border-top: 1px solid #aaa;
+	padding-top: 0.5em;
+}
+div.uiHeaderTopBorder {
+	margin-left: 0;
+}
+.uiHeaderNav {
+	border-color: #eee;
+	margin: 8px 0 0 6px;
+	padding: 7px 6px 3px 5px;
+}
+.uiHeaderNav h4 {
+	color: gray;
+}
+.lfloat {
+	float: left;
+}
+.phm {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.sp_comments {
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+}
+.sx_comments_cfavicon {
+	width: 14px;
+	height: 14px;
+	background-position: 0 -187px;
+}
+.sx_comments_like {
+	width: 15px;
+	height: 13px;
+	background-position: -33px -170px;
+}
+.uiBlingBox {
+	border-bottom: 1px solid #fff;
+	display: inline-block;
+	padding: 3px 4px 3px 2px;
+}
+.uiBlingBox:hover {
+	text-decoration: none;
+	background-color: #eceff5;
+	border-bottom: 1px solid #e5eaf1;
+}
+.uiBlingBox .text {
+	line-height: 11px;
+	vertical-align: text-bottom;
+}
+.uiBlingBox .img {
+	margin-right: 2px;
+	vertical-align: text-top;
+}
+.uiButton {
+	cursor: pointer;
+	display: inline-block;
+	font-size: 11px;
+	font-weight: 700;
+	line-height: 13px;
+	padding: 2px 6px;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: top;
+	white-space: nowrap;
+}
+.uiButton,
+.uiButtonSuppressed:active,
+.uiButtonSuppressed:focus,
+.uiButtonSuppressed:hover {
+	background-repeat: no-repeat;
+	background-position: -352px -348px;
+	background-color: #eee;
+	border: 1px solid #999;
+	border-bottom-color: #888;
+	-webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+.uiButton:hover {
+	text-decoration: none;
+}
+.uiButton:active {
+	background: #ddd;
+	border-bottom-color: #999;
+	-webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+}
+.uiButtonSuppressed {
+	background: 0 0;
+	border-color: transparent;
+	-webkit-box-shadow: none;
+}
+.uiImageBlockContent {
+	overflow: hidden;
+}
+.uiImageBlockSmallContent {
+	padding-top: 1px;
+}
+.uiImageBlockImage,
+.uiImageBlockImage .img {
+	display: block;
+}
+.uiImageBlockSmallImage {
+	margin-right: 5px;
+}
+a.uiLinkSubtle {
+	color: gray;
+}
+.uiListItem {
+	display: block;
+}
+.uiListVerticalItemBorder {
+	border-width: 1px 0 0;
+}
+.uiListItem:first-child {
+	border-width: 0;
+}
+.uiToggleFlyout {
+	display: none;
+}
+.uiSelector {
+	max-width: 200px;
+	vertical-align: top;
+}
+.uiSelector .wrap {
+	position: relative;
+}
+.uiSelector .uiButton,
+.uiSelector .uiButton:active,
+.uiSelector .uiButton:focus,
+.uiSelector .uiButton:hover {
+	background-image: none;
+}
+.uiSelector .uiSelectorButton {
+	vertical-align: top;
+}
+.uiSelector .uiSelectorButton:active {
+	background-color: #ddd;
+}
+.uiSelectorNormal .uiButtonSuppressed:active,
+.uiSelectorNormal .uiButtonSuppressed:focus,
+.uiSelectorNormal .uiButtonSuppressed:hover,
+.uiSelectorNormal .uiSelectorButton,
+.uiSelectorNormal .uiSelectorButton:active,
+.uiSelectorNormal .uiSelectorButton:focus,
+.uiSelectorNormal .uiSelectorButton:hover {
+	background-repeat: no-repeat;
+	background-position: right -5px;
+	max-width: 169px;
+	padding-right: 23px;
+}
+.uiSelectorNormal .uiButtonSuppressed,
+.uiSelectorNormal .uiSelectorButton:active {
+	background-repeat: no-repeat;
+	background-position: right -202px;
+}
+.uiSelectorMenuWrapper {
+	bottom: auto;
+	left: 0;
+	margin: -1px 0 30px;
+	max-width: 340px;
+	min-width: 100%;
+	position: absolute;
+	right: auto;
+	top: 100%;
+	z-index: -1;
+}
+.uiTextareaNoResize {
+	resize: none;
+}
+.uiTextareaAutogrow {
+	overflow: hidden;
+}
+.fss {
+	font-size: 9px;
+}
+.fsm {
+	font-size: 11px;
+}
+.fsl {
+	font-size: 13px;
+}
+.fwn {
+	font-weight: 400;
+}
+.fwb {
+	font-weight: 700;
+}
+.fcb {
+	color: #333;
+}
+.fcg {
+	color: gray;
+}
+.UIImageBlock_Content {
+	display: table-cell;
+	vertical-align: top;
+	width: 10000px;
+}
+.UIImageBlock_Image {
+	float: left;
+	margin-right: 5px;
+}
+.UIImageBlock_Image .img {
+	display: block;
+}
+.UIImageBlock_MED_Image {
+	margin-right: 10px;
+}
+.fbcommentscontainer a {
+	color: #3b5998 !important;
+}
+.sp_comments {
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+}
+@media screen and (max-width: 767px) {
+	.fbcommentscontainer {
+		margin-top: 20px;
+		width: 100%;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	.fbcommentscontainer {
+		width: 100%;
+	}
+}
+.new_block {
+	width: 100%;
+	float: left;
+	margin: 0;
+	font-size: 17px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.new_block p {
+	margin: 0 0 25px;
+}
+.text-2 {
+	position: absolute;
+	bottom: -30px;
+	line-height: 18px;
+	font-size: 14px;
+	padding: 15px;
+	background: rgba(0, 0, 0, 0.8);
+	background: rgb(0, 0, 0, 0.8);
+	color: #fff;
+}
+.follow-us a {
+	text-decoration: none;
+}
+.follow-us a:hover {
+	text-decoration: none !important;
+}
+.nav-link-wrapper2 {
+	display: inline;
+}
+.navbar-fixed-bottom,
+.navbar-fixed-top {
+	position: absolute;
+}
+@media screen and (min-width: 300px) and (max-width: 1000px) {
+	.sidebar {
+		display: none;
+	}
+}

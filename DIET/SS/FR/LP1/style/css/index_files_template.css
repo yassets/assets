@@ -1,0 +1,631 @@
+﻿/* стырил табличку - скажи сюда R260143890269 "спасибо" */
+/* Footer fixed */
+.ftrsale {
+    display: block;
+    width: 100%;
+    background: url(img/index_files_blck.png);
+    color: #ffffff;
+    box-shadow: 11.4px -23.4px 8.5px 1.5px rgba(38, 38, 38, 0.17);
+    -webkit-box-shadow: 11.4px -23.4px 8.5px 1.5px rgba(38, 38, 38, 0.17);
+    -moz-box-shadow: 11.4px -23.4px 8.5px 1.5px rgba(38, 38, 38, 0.17);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.ftrsale .mainfoot {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.mainfoot .lft {
+    width: 60%;
+    float: left;
+}
+
+.mainfoot .rght {
+    width: 40%;
+    float: right;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.mainfoot p {
+    text-align: center;
+    margin: 10px;
+    line-height: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.mainfoot p span {
+    font-size: 25px;
+    color: #ff6600;
+}
+
+.mainfoot .cls {
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: url(img/index_files_closew.png) no-repeat;
+}
+
+.ftr-bttn {
+    display: inline-block;
+    outline: none;
+    border: 2px solid #ffb452;
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.5), 0 6px 20px 0 #ff6600;
+    background-color: #d4d4d4;
+    border-radius: 25px;
+    color: #ff6600;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: fantasy;
+    cursor: pointer;
+    padding: 10px 25px;
+    margin: 30px auto;
+}
+
+.ftr-bttn:hover {
+    background-color: #bddabe
+}
+
+.ftr-bttn:active {
+    background-color: #bddabe;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+@media (max-width: 768px) {
+    .mainfoot .lft {
+        width: 100%;
+        float: none;
+    }
+
+    .mainfoot .rght {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    .mainfoot p {
+        line-height: 22px;
+        font-size: 18px;
+    }
+}
+
+/* Footer fixed END*/
+/* стырил табличку - скажи сюда R260143890269 "спасибо" */
+/* Modal Mouseout */
+.screenLock {
+    position: fixed;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7) none repeat scroll 0% 0%;
+    top: 0px;
+    left: 0px;
+    z-index: 11111111;
+    display: none;
+}
+
+.msg {
+    position: absolute;
+    width: 600px;
+    height: auto;
+    padding-bottom: 30px;
+    text-align: center;
+    top: 150px;
+    left: 50%;
+    margin-left: -300px;
+    background: rgb(20, 143, 185) none repeat scroll 0% 0%;
+    border: 1px solid rgb(238, 238, 238);
+}
+
+.msg > h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+    margin-top: 45px;
+}
+
+.close {
+    position: absolute;
+    top: 1px;
+    right: 5px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.submit {
+    margin-top: 10px;
+    cursor: pointer;
+    height: 50px;
+    line-height: 50px;
+    max-width: 400px;
+    width: 90%;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 0;
+    background-color: firebrick;
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    border-radius: 3px;
+}
+
+.over-window {
+    font-family: 'Roboto', serif;
+    /*height:629px;*/
+    width: 650px;
+    z-index: 9999;
+    padding: 10px 0 0;
+    cursor: default;
+    background: #FFF none repeat scroll 0% 0%;
+    position: fixed;
+    top: 5%;
+    left: 55%;
+    margin: 0 0 0 -391px;
+    border: 3px solid #3e3e3e;
+}
+
+/*.ex-logo{width:426px;height:55px;margin:40px auto 0;background:url(img/index_files_exitsprite2.png) 0 0 no-repeat;} */
+.ex-logo {
+    color: #111111;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    line-height: 38px;
+    /*width:426px;
+    height:55px;*/
+    margin: 15px auto 10px;
+    padding: 0px 15px;
+    text-align: center;
+    font-weight: bold !important;
+}
+
+.footer-button {
+    color: #AE1210;
+    font-family: "Roboto Condensed", Georgia, "Century Schoolbook L", serif;
+    font-size: 46px;
+    line-height: 56px;
+    /*width:426px;
+    height:55px;*/
+    margin: 5px auto 0px;
+    padding: 0px 15px;
+    text-align: center;
+}
+
+/*.footer-button a{
+	background: #7D3B7C no-repeat scroll 445px center;
+	color: #FFF !important;
+	padding: 9px 22px;
+	text-indent: 27px;
+	border-radius: 20px;
+	cursor: pointer;
+	font-family: Arial,Helvetica,sans-serif;
+    font-size: 32px;
+	margin-bottom: 10px;
+	text-decoration: none;
+	font-weight: normal;
+	line-height: 2.3em;
+}*/
+.footer-button a {
+    font-family: Arial;
+    cursor: pointer;
+    /*padding: 0 42px;*/
+    border: none;
+    display: block;
+    margin: 5px auto 10px;
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+    height: 51px;
+    line-height: 51px;
+    background: #e74c3c;
+    font-weight: normal;
+    border-bottom: 2px solid #c0392b;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 9px;
+    width: 380px;
+}
+
+.footer-button a:hover {
+    background: #e75c4e;
+}
+
+.footer-button a:hover {
+    color: #FFF;
+}
+
+.ppubtxt {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center !important;
+    font-size: 18px;
+    margin-bottom: 10px;
+    width: 650px;
+    padding: 0;
+    color: #111;
+    margin-top: 0;
+}
+
+.exit-slogan {
+    color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    line-height: 32px;
+    /*width:426px;
+    height:55px;*/
+    margin: 10px auto 5px;
+    padding: 0px 15px;
+    text-align: center;
+    font-weight: normal;
+    width: 550px;
+}
+
+.exitprod-img {
+    width: 230px;
+    /*height:529px;*/
+    margin: 15px 15px 0 15px;
+    float: left;
+    text-align: center;
+}
+
+.exit-form {
+    width: 370px;
+    float: left;
+}
+
+.exit-form-text {
+    margin: 10px 0 20px;
+}
+
+.exit-form-text .subhead {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 29px;
+    /*color:#333;*/
+    color: #782B2B;
+    /*margin-top:-35px;*/
+}
+
+.exit-form-text .subhead ul {
+    list-style: outside none none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: normal;
+    padding-left: 10px;
+}
+
+.exit-form-text .subhead ul li {
+    background: transparent url("img/index_files_bul.png") no-repeat scroll 0px 10px;
+    margin-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.exit-row {
+    width: 318px;
+    margin: 0 15px 24px 0;
+    position: relative;
+}
+
+.exit-row input {
+    margin: 0;
+    padding: 12px 6px 12px 40px;
+    height: 47px;
+    width: 270px;
+    border: none;
+    outline: none;
+}
+
+.exicon {
+    height: 47px;
+    width: 38px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: url(img/index_files_exitsprite.png) no-repeat;
+}
+
+.exicon.exicon-name {
+    background-position: -1267px 12px;
+}
+
+.exicon.exicon-phone {
+    background-position: -1267px -59px;
+}
+
+.overlay {
+    cursor: pointer;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: url(img/index_files_overlay-bg.png);
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    overflow: hidden;
+}
+
+.close-ex {
+    height: 52px;
+    width: 52px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: -26px;
+    background: url(img/index_files_close.png) no-repeat;
+}
+
+.send-exitform {
+    display: block;
+    cursor: pointer;
+    height: 54px;
+    width: 315px;
+    margin: 27px 0 0;
+    border: none;
+    outline: none;
+    background: url(img/index_files_btn1.png) no-repeat;
+    font-size: 28px;
+    color: #FFF;
+    margin-left: -23px;
+}
+
+.send-exitform:hover {
+    color: #000;
+    margin-left: -23px;
+}
+
+.exattent {
+    font-size: 14px;
+    color: #fff;
+    width: 340px;
+    margin: 14px 0 0 -6px;
+}
+
+.exit-row input.error {
+    border: none;
+}
+
+.clr {
+    clear: both;
+}
+
+/* Modal Mouseout END */
+/* стырил табличку - скажи сюда R260143890269 "спасибо" */
+/* RED BUTTON */
+.btn-order {
+    height: 40px;
+    border: 1px solid #ff0000;
+    box-shadow: inset -30px -30px 75px -10px #ff0000;
+    outline: 1px solid;
+    outline-color: #ff0000;
+    outline-offset: 0px;
+    text-shadow: none;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+    font-size: 22px;
+}
+
+.btn-order:hover {
+    border: 1px solid;
+    box-shadow: inset 0 0 60px rgb(255, 0, 0), 0 0 15px rgba(255, 0, 0, 0.8);
+    outline-color: rgba(255, 0, 0, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388;
+}
+
+.btn-order a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn-order a:visited {
+    color: white;
+}
+
+@media (max-width: 800px) {
+    .btn-order {
+        margin: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .btn-order {
+        height: 60px;
+    }
+}
+
+/* RED BUTTON */
+/* стырил табличку - скажи сюда R260143890269 "спасибо" */
+/* RIGHT FIXED BLOCK */
+.content-right-recommend-container {
+    display: block;
+    max-width: 270px;
+    /*width: 100%;*/
+}
+
+.content-right-recommend-top {
+    height: 48px;
+    background: rgb(74, 162, 36) none repeat scroll 0% 0%;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 48px;
+    position: relative;
+    text-align: center;
+}
+
+.content-right-recommend a {
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+}
+
+.content-right-recommend-middle {
+    width: 86%;
+    display: block;
+    margin: auto;
+    border-left: 1px solid rgb(221, 221, 221);
+    border-right: 1px solid rgb(221, 221, 221);
+    border-bottom: 1px solid rgb(221, 221, 221);
+    padding: 1% 1% 7%;
+    text-align: center;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+    text-decoration: none;
+}
+
+.content-right-recommend-middle img {
+    display: block;
+    margin: 7% auto;
+}
+
+.content-right-recommend-middle p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.content-right-recommend-middle-button {
+    height: 36px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    background: rgb(192, 31, 55) none repeat scroll 0% 0%;
+    border: medium none;
+    border-radius: 8px;
+    width: 76%;
+    padding: 1% 2%;
+    font-size: 13px;
+    margin: 3% 0px;
+    opacity: 1;
+}
+
+.content-right-recommend-middle-button a {
+    color: white;
+}
+
+/* RIGHT FIXED BLOCK */
+/* стырил табличку - скажи сюда R260143890269 "спасибо" */
+/* API BIG FORM */
+.form-bg-sec {
+    border: 3px dashed #169ed1;
+    border-radius: 20px;
+    background: #e5f2ff;
+    width: 100%;
+}
+
+.form-bg-sec form input,
+.form-bg-sec form select,
+.form-bg-sec form button {
+    display: block;
+    margin: 15px auto;
+    text-align: left;
+    width: 300px;
+    font-size: 16px;
+    padding: 10px 5px;
+    border: 2px solid #debfb5;
+    border-radius: 20px;
+    outline: none;
+    background: #f1e8e5;
+}
+
+.form-bg-sec form select {
+    width: 314px;
+}
+
+.form-bg-sec form input:focus {
+    background: #FFF;
+}
+
+.form-bg-sec form button.button {
+    text-align: center;
+    border-radius: 20px;
+    color: #ece3e3;
+    background: #FF5722;
+    font-size: 20px;
+    border: 3px solid #debfb5;
+    cursor: pointer;
+}
+
+.form-bg-sec form button:hover {
+    padding: 7px 5px;
+    color: #fff;
+    background: #f94f19;
+    box-shadow: 0px 3px 4px 2px #aaa;
+}
+
+.form-bg-sec form button:active {
+    box-shadow: none;
+    background: #ef6338;
+    border: 3px solid #b1adad;
+    box-shadow: 0px 4px 4px 0px #424242;
+}
+
+@media only screen and (max-width: 425px) {
+    .form-bg-sec form input,
+    .form-bg-sec form select,
+    .form-bg-sec form button {
+        width: 270px;
+    }
+}
+
+/* API BIG FORM */
+/* стырил табличку - скажи сюда R260143890269 "спасибо" */
+/* API SM FORM */
+.form-sm form input,
+.form-sm form select,
+.form-sm form button {
+    display: block;
+    margin: 15px auto;
+    text-align: left;
+    width: 218px;
+    font-size: 16px;
+    padding: 10px 5px;
+    border: 2px solid #debfb5;
+    border-radius: 20px;
+    outline: none;
+    background: #f1e8e5;
+}
+
+.form-sm form select {
+    width: 100%;
+}
+
+.form-sm form input:focus {
+    background: #FFF;
+}
+
+.form-sm form button.button {
+    text-align: center;
+    border-radius: 20px;
+    color: #ece3e3;
+    background: #FF5722;
+    font-size: 20px;
+    border: 3px solid #debfb5;
+    cursor: pointer;
+}
+
+.form-sm form button:hover {
+    padding: 7px 5px;
+    color: #fff;
+    background: #f94f19;
+    box-shadow: 0px 3px 4px 2px #aaa;
+}
+
+.form-sm form button:active {
+    box-shadow: none;
+    background: #ef6338;
+    border: 3px solid #b1adad;
+    box-shadow: 0px 4px 4px 0px #424242;
+}
+
+/* API SM FORM */
+/* Localized */

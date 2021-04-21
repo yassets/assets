@@ -1,0 +1,173 @@
+﻿
+        .my-button {
+            background-color: #1b4e81;
+            border-color: #ccc;
+            color: #ffffff;
+            padding: 7px 10px;
+            margin-bottom: 0;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.42857143;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: middle;
+            -ms-touch-action: manipulation;
+            touch-action: manipulation;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            background-image: none;
+            border: 1px solid transparent;
+            border-radius: 4px;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+
+        .my-button1 {
+            background-color: #d20f26;
+            border-color: #ccc;
+            color: #ffffff;
+            padding: 7px 10px;
+            margin-bottom: 0;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.42857143;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: middle;
+            -ms-touch-action: manipulation;
+            touch-action: manipulation;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            background-image: none;
+            border: 1px solid transparent;
+            border-radius: 4px;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+
+        .div_hover {
+            background-color: #003366;
+            color: #ffffff;
+            font-weight: bold;
+            cursor: pointer;
+            font-size: 15px;
+            padding: 6px 12px;
+        }
+
+            .div_hover:hover {
+                background-color: #40668c;
+                color: #ffffff;
+                text-decoration: none;
+            }
+
+        .my-button:hover {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .my-button1:hover {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        #expand-box {
+            width: 100%;
+            padding: 0;
+            border: 2px solid #bbb;
+            margin: 7px 0 0 0;
+        }
+
+        #expand-box-header {
+            margin: 0;
+            padding: 0 0 3px 2px;
+            overflow: auto;
+        }
+
+        #expand_box_sub_header {
+            clear: both;
+        }
+
+        @media only screen and (max-width: 1180px) {
+            #a10 {
+                display: none;
+            }
+        }
+
+        @media only screen and (max-width: 1120px) {
+            #a9 {
+                display: none;
+            }
+        }
+
+        @media only screen and (max-width: 1060px) {
+            #a8 {
+                display: none;
+            }
+        }
+
+        @media only screen and (max-width: 1000px) {
+            #a7 {
+                display: none;
+            }
+        }
+
+        @media only screen and (max-width: 920px) {
+            #a6 {
+                display: none;
+            }
+        }
+
+        @media only screen and (max-width: 860px) {
+            #a5 {
+                display: none;
+            }
+        }
+
+        @media only screen and (max-width: 800px) {
+            #a4 {
+                display: none;
+            }
+        }
+
+        @media only screen and (max-width: 740px) {
+            #a3 {
+                display: none;
+            }
+        }
+
+        @media only screen and (max-width: 680px) {
+            #a2 {
+                display: none;
+            }
+        }
+
+        @media only screen and (max-width: 620px) {
+            #a1 {
+                display: none;
+            }
+        }
+
+        @media only screen and (max-width: 400px) {
+            #c1 {
+                padding-left: 11px;
+            }
+        }
+
+        @media only screen and (max-width: 310px) {
+            #b1 {
+                display: none;
+            }
+        }
+
+        .push_to_right {
+            padding-left: 100px;
+        }
+
+
+
