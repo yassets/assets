@@ -1,0 +1,84 @@
+
+html { font-family: sans-serif; }
+body { margin: 0px; }
+section { display: block; }
+a { background-color: transparent; }
+a:active, a:hover { outline: 0px none; }
+button { margin: 0px; font: inherit; color: inherit; }
+button { overflow: visible; }
+button { text-transform: none; }
+button { cursor: pointer; }
+button::-moz-focus-inner { padding: 0px; border: 0px none; }
+* { -moz-box-sizing: border-box; box-sizing: border-box; }
+*::before, *::after { -moz-box-sizing: border-box; box-sizing: border-box; }
+html { font-size: 10px; }
+body { font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; font-size: 14px; line-height: 1.42857; color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); }
+button { font-family: inherit; font-size: inherit; line-height: inherit; }
+a { color: rgb(51, 122, 183); text-decoration: none; }
+a:hover, a:focus { color: rgb(35, 82, 124); text-decoration: underline; }
+a:focus { outline: thin dotted; outline-offset: -2px; }
+p { margin: 0px 0px 10px; }
+.text-right { text-align: right; }
+.container { padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto; }
+@media (min-width: 768px) {
+  .container { width: 750px; }
+}
+@media (min-width: 992px) {
+  .container { width: 970px; }
+}
+@media (min-width: 1200px) {
+  .container { width: 1170px; }
+}
+.row { margin-right: -15px; margin-left: -15px; }
+.col-xs-6 { position: relative; min-height: 1px; padding-right: 15px; padding-left: 15px; }
+.col-xs-6 { float: left; }
+.col-xs-6 { width: 50%; }
+.col-xs-8 { position: relative; min-height: 1px; padding-right: 15px; padding-left: 15px; }
+.col-xs-8 { float: left; }
+.col-xs-8 { width: 66.6667%; }
+.col-xs-4 { position: relative; min-height: 1px; padding-right: 15px; padding-left: 15px; }
+.col-xs-4 { float: left; }
+.col-xs-4 { width: 33.3333%; }
+.btn { display: inline-block; padding: 6px 12px; margin-bottom: 0px; font-size: 14px; font-weight: normal; line-height: 1.42857; text-align: center; white-space: nowrap; vertical-align: middle; cursor: pointer; -moz-user-select: none; background-image: none; border: 1px solid transparent; border-radius: 4px; }
+.btn:focus, .btn:active:focus { outline: thin dotted; outline-offset: -2px; }
+.btn:hover, .btn:focus { color: rgb(51, 51, 51); text-decoration: none; }
+.btn:active { background-image: none; outline: 0px none; box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.125) inset; }
+.btn-success { color: rgb(255, 255, 255); background-color: rgb(92, 184, 92); border-color: rgb(76, 174, 76); }
+.btn-success:focus { color: rgb(255, 255, 255); background-color: rgb(68, 157, 68); border-color: rgb(37, 86, 37); }
+.btn-success:hover { color: rgb(255, 255, 255); background-color: rgb(68, 157, 68); border-color: rgb(57, 132, 57); }
+.btn-success:active { color: rgb(255, 255, 255); background-color: rgb(68, 157, 68); border-color: rgb(57, 132, 57); }
+.btn-success:active:hover, .btn-success:active:focus { color: rgb(255, 255, 255); background-color: rgb(57, 132, 57); border-color: rgb(37, 86, 37); }
+.btn-success:active { background-image: none; }
+.container::before, .container::after, .row::before, .row::after { display: table; content: " "; }
+.container::after, .row::after { clear: both; }
+.btn-success { text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2); box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.15) inset, 0px 1px 1px rgba(0, 0, 0, 0.075); }
+.btn-success:active { box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.125) inset; }
+.btn:active { background-image: none; }
+.btn-success { background-image: -webkit-linear-gradient(top, rgb(92, 184, 92) 0%, rgb(65, 150, 65) 100%); background-image: -moz-linear-gradient(top, rgb(92, 184, 92) 0%, rgb(65, 150, 65) 100%); background-image: -o-linear-gradient(top, rgb(92, 184, 92) 0%, rgb(65, 150, 65) 100%); background-image: linear-gradient(to bottom, rgb(92, 184, 92) 0%, rgb(65, 150, 65) 100%); background-repeat: repeat-x; border-color: rgb(62, 143, 62); }
+.btn-success:hover, .btn-success:focus { background-color: rgb(65, 150, 65); background-position: 0px -15px; }
+.btn-success:active { background-color: rgb(65, 150, 65); border-color: rgb(62, 143, 62); }
+.p-r-5 { padding-right: 5px ! important; }
+.p-l-5 { padding-left: 5px ! important; }
+.timer { position: fixed; width: 100%; background: rgb(6, 149, 184) none repeat scroll 0% 0%; bottom: 0px; padding: 4px 0px; }
+.timer p { font-family: Opensans-Regular; margin: 0px; color: rgb(255, 255, 255); }
+.timer .btn { font-family: Opensans-Regular; margin-top: 3px; }
+
+.footerAdjustImg{
+	padding-right:20px;
+	height:90px;
+}
+@media screen and (max-width:660px){
+	.footerAdjustImg{
+		padding:0px;
+	}
+	.footerAdjustL{
+		width: 65% ! important;
+		font-size: 13px ! important;
+		float:left;
+	}
+	.footerAdjustR{
+		width: 35% ! important;
+		float:left;
+	}
+}
+

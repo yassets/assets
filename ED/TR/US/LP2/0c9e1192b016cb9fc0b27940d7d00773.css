@@ -1,0 +1,171 @@
+/*** uncss> filename: handle/css/bootstrap.min.css ***/
+/* Code tidied up by ScrapBook */
+html { font-family: sans-serif; }
+body { margin: 0px; }
+section { display: block; }
+a { background-color: transparent; }
+a:active, a:hover { outline: 0px none; }
+strong { font-weight: 700; }
+h1 { margin: 0.67em 0px; font-size: 2em; }
+img { border: 0px none; }
+@media print {
+  *, *::after, *::before { color: rgb(0, 0, 0) ! important; text-shadow: none ! important; background: transparent none repeat scroll 0px 0px ! important; box-shadow: none ! important; }
+  a, a:visited { text-decoration: underline; }
+  a[href]::after { content: " (" attr(href) ")"; }
+  img { page-break-inside: avoid; }
+  img { max-width: 100% ! important; }
+  h2, h3, p {  }
+  h2, h3 { page-break-after: avoid; }
+}
+
+* { -moz-box-sizing: border-box; box-sizing: border-box; }
+*::after, *::before { -moz-box-sizing: border-box; box-sizing: border-box; }
+html { font-size: 10px; }
+body { font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; font-size: 14px; line-height: 1.42857; color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); }
+a { color: rgb(51, 122, 183); text-decoration: none; }
+a:focus, a:hover { color: rgb(35, 82, 124); text-decoration: underline; }
+a:focus { outline: thin dotted; outline-offset: -2px; }
+img { vertical-align: middle; }
+.img-responsive { display: block; max-width: 100%; height: auto; }
+h1, h2, h3, h4 { font-family: inherit; font-weight: 500; line-height: 1.1; color: inherit; }
+h1, h2, h3 { margin-top: 20px; margin-bottom: 10px; }
+h4 { margin-top: 10px; margin-bottom: 10px; }
+h1 { font-size: 36px; }
+h2 { font-size: 30px; }
+h3 { font-size: 24px; }
+h4 { font-size: 18px; }
+p { margin: 0px 0px 10px; }
+.text-center { text-align: center; }
+.container { padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto; }
+@media (min-width: 768px) {
+  .container { width: 750px; }
+}
+@media (min-width: 992px) {
+  .container { width: 970px; }
+}
+@media (min-width: 1200px) {
+  .container { width: 1170px; }
+}
+.row { margin-right: -15px; margin-left: -15px; }
+.col-md-10, .col-md-12, .col-md-3, .col-md-7 { position: relative; min-height: 1px; padding-right: 15px; padding-left: 15px; }
+@media (min-width: 992px) {
+  .col-md-10, .col-md-12, .col-md-3, .col-md-7 { float: left; }
+  .col-md-12 { width: 100%; }
+  .col-md-10 { width: 83.3333%; }
+  .col-md-7 { width: 58.3333%; }
+  .col-md-3 { width: 25%; }
+  .col-md-offset-1 { margin-left: 8.33333%; }
+}
+.container::after, .container::before, .row::after, .row::before { display: table; content: " "; }
+.container::after, .row::after { clear: both; }
+ 
+/*** uncss> filename: handle/css/bootstrap-theme.min.css ***/
+/* Code tidied up by ScrapBook */
+ 
+/*** uncss> filename: handle/css/docs.min.css ***/
+/* Code tidied up by ScrapBook */
+body { position: relative; }
+.highlight { padding: 9px 14px; margin-bottom: 14px; background-color: rgb(247, 247, 249); border: 1px solid rgb(225, 225, 232); border-radius: 4px; }
+:hover > .anchorjs-link { opacity: 0.75; -webkit-transition: color 0.16s linear 0s; -moz-transition: color 0.16s linear 0s; -o-transition: color 0.16s linear 0s; transition: color 0.16s linear 0s; }
+:hover > .anchorjs-link:hover { text-decoration: none; opacity: 1; }
+@media print {
+  a[href]::after { content: "" ! important; }
+}
+ 
+/*** uncss> filename: handle/css/index.css ***/
+/* Code tidied up by ScrapBook */
+
+/* Code tidied up by ScrapBook */
+html { font-family: sans-serif; }
+body { margin: 0px; }
+section { display: block; }
+a { background-color: transparent; }
+a:active, a:hover { outline: 0px none; }
+strong { font-weight: 700; }
+h1 { margin: 0.67em 0px; font-size: 2em; }
+img { border: 0px none; }
+@media print {
+  *, *::after, *::before { color: rgb(0, 0, 0) ! important; text-shadow: none ! important; background: transparent none repeat scroll 0px 0px ! important; box-shadow: none ! important; }
+  a, a:visited { text-decoration: underline; }
+  a[href]::after { content: " (" attr(href) ")"; }
+  img { page-break-inside: avoid; }
+  img { max-width: 100% ! important; }
+  h2, h3, p {  }
+  h2, h3 { page-break-after: avoid; }
+}
+
+* { -moz-box-sizing: border-box; box-sizing: border-box; }
+*::after, *::before { -moz-box-sizing: border-box; box-sizing: border-box; }
+html { font-size: 10px; }
+body { font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; font-size: 14px; line-height: 1.42857; color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); }
+a { color: rgb(51, 122, 183); text-decoration: none; }
+a:focus, a:hover { color: rgb(35, 82, 124); text-decoration: underline; }
+a:focus { outline: thin dotted; outline-offset: -2px; }
+img { vertical-align: middle; }
+.img-responsive { display: block; max-width: 100%; height: auto; }
+h1, h2, h3, h4 { font-family: inherit; font-weight: 500; line-height: 1.1; color: inherit; }
+h1, h2, h3 { margin-top: 20px; margin-bottom: 10px; }
+h4 { margin-top: 10px; margin-bottom: 10px; }
+h1 { font-size: 36px; }
+h2 { font-size: 30px; }
+h3 { font-size: 24px; }
+h4 { font-size: 18px; }
+p { margin: 0px 0px 10px; }
+.text-center { text-align: center; }
+.container { padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto; }
+@media (min-width: 768px) {
+  .container { width: 750px; }
+}
+@media (min-width: 992px) {
+  .container { width: 970px; }
+}
+@media (min-width: 1200px) {
+  .container { width: 1170px; }
+}
+.row { margin-right: -15px; margin-left: -15px; }
+.col-md-10, .col-md-12, .col-md-3, .col-md-7 { position: relative; min-height: 1px; padding-right: 15px; padding-left: 15px; }
+@media (min-width: 992px) {
+  .col-md-10, .col-md-12, .col-md-3, .col-md-7 { float: left; }
+  .col-md-12 { width: 100%; }
+  .col-md-10 { width: 83.3333%; }
+  .col-md-7 { width: 58.3333%; }
+  .col-md-3 { width: 25%; }
+  .col-md-offset-1 { margin-left: 8.33333%; }
+}
+.container::after, .container::before, .row::after, .row::before { display: table; content: " "; }
+.container::after, .row::after { clear: both; }
+
+/* Code tidied up by ScrapBook */
+body { position: relative; }
+.highlight { padding: 9px 14px; margin-bottom: 14px; background-color: rgb(247, 247, 249); border: 1px solid rgb(225, 225, 232); border-radius: 4px; }
+:hover > .anchorjs-link { opacity: 0.75; -webkit-transition: color 0.16s linear 0s; -moz-transition: color 0.16s linear 0s; -o-transition: color 0.16s linear 0s; transition: color 0.16s linear 0s; }
+:hover > .anchorjs-link:hover { text-decoration: none; opacity: 1; }
+@media print {
+  a[href]::after { content: "" ! important; }
+}
+
+/* Code tidied up by ScrapBook */
+* { margin: 0px; padding: 0px; }
+body { font-family: Tahoma,Verdana,Arial; font-size: 16px; line-height: 23px; width: 100%; }
+a { color: rgb(10, 120, 194); outline: medium none; text-decoration: none; }
+a:hover { text-decoration: underline; }
+strong { font-weight: bolder; }
+img { border: medium none; }
+h1 { margin: 10px 0px; font-size: 24px; }
+h2 { margin: 20px 0px; font-size: 24px; }
+h3 { margin: 2px 0px 10px; font-size: 20px; font-weight: normal; }
+.boxframeleft { box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3); margin: 10px 0px; padding: 10px 15px; }
+.boxframeright { box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3); margin: 10px 0px; padding: 10px; }
+.footer { clear: both; margin-left: 0px; margin-right: 0px; margin-bottom: 20px; font-size: 12px; color: rgb(119, 119, 119); }
+.vk-container { font-family: tahoma,arial,verdana,sans-serif,Lucida Sans; font-size: 11px; line-height: 17px; color: black; text-decoration: none; }
+.vk-container a { text-decoration: none; }
+.vk-container a:hover { text-decoration: none; }
+.vk-header { background: rgb(218, 226, 232) none repeat scroll 0% 0%; padding: 4px 4px 4px 6px; margin-bottom: 10px; }
+.vk-logo { width: 16px; height: 16px; float: right; margin-top: -1px; }
+.vk-header-text { padding: 2px 3px 1px; line-height: 100%; color: rgb(69, 104, 142); font-weight: bold; }
+.vk-avatar img { float: left; margin-right: 10px; }
+.vk-comment, .vk-comment-load { margin-bottom: 15px; position: relative; border-bottom: 1px solid rgb(218, 225, 232); padding-bottom: 15px; }
+.vk-comment-name { color: rgb(43, 88, 122); font-weight: bold; font-size: 12px; text-decoration: none; }
+.vk-comment-name:hover { text-decoration: none; }
+.vk-comment-text { margin-left: 60px; }
+.vk-comment-date { margin-left: 60px; color: rgb(153, 153, 153); }
