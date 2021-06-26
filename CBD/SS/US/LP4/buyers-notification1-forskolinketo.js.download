@@ -1,0 +1,38 @@
+$(document).ready(function () {
+	var hover = false;
+	var numItems = 10; //this will be total number
+
+	var i= Math.floor((Math.random() * numItems) + 1);
+	var flag= true;
+	$('#someone-purchased img').attr('src',images[i]);
+	$('#someone-purchased a').text(link_titles[i]);
+	$('#someone-purchased span').text(titles[i]);
+	function changeClass(){
+		if(!hover){
+			$('#someone-purchased').toggleClass('fade-in fade-out');
+			if($('.fade-in').length == 0) {
+				flag= true;
+			}else{
+				flag= false;
+			}
+			if(flag){
+				setTimeout(function myFunction() {
+                    var t = i % images.length;
+					$('#someone-purchased img').attr('src',images[t]);
+                    t = i % link_titles.length;
+					$('#someone-purchased a').text(link_titles[t]);
+                    t = i % titles.length;
+					$('#someone-purchased span').text(titles[t]);
+					i = Math.floor((Math.random() * numItems) + 1);
+				},5000);
+			}
+		}
+	}
+	$('#someone-purchased').mouseover(function(){
+        hover = true;
+    });
+    $('#someone-purchased').mouseout(function(){
+        hover = false;
+    });
+	setInterval(changeClass, Math.floor((Math.random() * 8000) + 6000));
+});

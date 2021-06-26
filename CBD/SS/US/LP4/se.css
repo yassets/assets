@@ -1,0 +1,128 @@
+.wrapper {
+	display: block;
+	margin: 0 auto;
+	width: 1100px;
+}
+
+.inl {
+	display: inline-block;
+	vertical-align: top;
+	* display: inline;
+	zoom: 1;
+}
+
+.newsletter{
+	display: block;
+	margin: 20px 0;
+	padding: 40px 0;
+	box-sizing: border-box;
+	background-color: #00838f;
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+}
+.newsletter .nl-inner{
+	display: block;
+	margin: 20px auto;
+	width: 60%;
+	text-align: center;
+}
+.newsletter .nl-inner h1{
+	display: block;
+	margin: 10px 0;
+	font-size: 30px;
+	line-height: 35px;
+}
+.newsletter .nl-inner p{
+	display: block;
+	margin: 10px 0;
+	padding: 0 0;
+	box-sizing: border-box;
+	font-size: 16px;
+	line-height: 21px;
+}
+.newsletter .nl-inner .search {
+    display: inline-block;
+    margin: 20px 0;
+    overflow: hidden;
+    position: relative;
+    vertical-align: middle;
+    width: 100%;
+    padding: 0px 0px;
+    font-size: 0;
+}
+.newsletter .nl-inner .search input[type="text"] {
+    background-color: #fff;
+    border: medium none;
+    color: #333;
+    display: inline-block;
+    font-size: 13px;
+    outline: medium none;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    width: 75%;
+    border-radius: 10px;
+}
+.newsletter .nl-inner .search input[type="submit"] {
+	display: inline-block;
+    background-color: #e02462;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: medium none;
+    height: 47px;
+    margin: 0 0 0 10px;
+    width: 18%;
+    font-size: 13px;
+    color: #fff;
+    border-radius: 40px;
+}
+
+/* 
+   1024 px
+*/
+@media screen and (max-width: 1124px) {
+.wrapper {
+   width: 700px;
+}
+}
+
+/* 
+   600 px
+*/
+
+@media screen and (max-width: 600px) {
+.wrapper {
+   width: 380px;
+}
+.newsletter .nl-inner .search input[type="text"]{
+	width: 100%;
+	border-radius: 40px;
+}
+.newsletter .nl-inner .search input[type="submit"]{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	margin: 10px 0;
+}
+}
+
+/* 
+   770 px
+*/
+@media screen and (max-width: 770px) {
+.wrapper {
+   width: 550px;
+}
+.newsletter .nl-inner{
+	width: 100%;
+}
+}
+
+/* 
+   420 px
+*/
+@media screen and (max-width: 420px) {
+.wrapper {
+   width: 280px;
+}
+}
