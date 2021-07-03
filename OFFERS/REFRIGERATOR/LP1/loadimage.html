@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<!-- saved from url=(0293)https://n6a0bs8rgb.execute-api.us-east-1.amazonaws.com/prod/loadimage.html?c=74797524207272706c712225736c752275796c797425786c7672762778252525272071237005070e61062d2e23202d&n=05070e61062d2e23202d&u=3636366f382e343336282d2d2832352e2f272e3322246f222e2c6e2524322a352e316e242f6e3133246c706f29352c2d -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+
+<body>
+    <script src="./ctrwow_fp_analytics.min.js.download"></script>
+    <script>
+        (function () {            
+            //get param
+            function _getUrlParam(param) {
+                let href = '';
+                if (location.href.indexOf('?')) {
+                    href = location.href.substr(location.href.indexOf('?'));
+                }
+
+                const value = href.match(new RegExp('[\?\&]' + param + '=([^\&]*)(\&?)', 'i'));
+                return value ? value[1] : null;
+            }
+
+            //encrypt string
+            function _encryptStr(str) {
+                let textToChars = text => text.split('').map(c => c.charCodeAt(0));
+                let byteHex = n => ("0" + Number(n).toString(16)).substr(-2);
+                let applySaltToChar = code => textToChars(str).reduce((a, b) => a ^ b, code);
+
+                return text => text.split('')
+                    .map(textToChars)
+                    .map(applySaltToChar)
+                    .map(byteHex)
+                    .join('')
+            }
+
+            function _decryptStr(str) {
+                let textToChars = text => text.split('').map(c => c.charCodeAt(0));
+                let saltChars = textToChars(str);
+                let applySaltToChar = code => textToChars(str).reduce((a, b) => a ^ b, code);
+                return encoded => encoded.match(/.{1,2}/g)
+                    .map(hex => parseInt(hex, 16))
+                    .map(applySaltToChar)
+                    .map(charCode => String.fromCharCode(charCode))
+                    .join('')
+            }
+
+            function _getBasePath(url) {
+                const r = ('' + url).match(/^(https?:)?\/\/[^/]+/i);
+                return r ? r[0] : '';
+            }            
+
+            function getImage() {                
+                const pageCode = _getUrlParam('u');
+                const referrerUrl = document.referrer;
+                if (!pageCode || pageCode.trim() === '' || referrerUrl === '') return;
+                if(referrerUrl.toLowerCase().indexOf('ctrwow') > 0) return;
+                if(referrerUrl.toLowerCase().indexOf('n6a0bs8rgb.execute-api.us-east-1.amazonaws.com') > 0) return;              
+
+                //decrypt page code
+                const myDecrypt = _decryptStr('secretKey');
+                const pageUrl = myDecrypt(pageCode);
+                const domainOfPageUrl = pageUrl.substring(0, pageUrl.indexOf('/'));
+
+                //encrypt domain                
+                const myEncrypt = _encryptStr('secretKey');
+                const domainUrlCode = myEncrypt(referrerUrl);   
+                
+                let emails = _getUrlParam('emails');
+                if(emails) {
+                    emails = '&emails=' + emails;
+                } else {
+                    emails = '';
+                }
+
+                //client id
+                let c = _getUrlParam('c');
+                if(c) {
+                    c = '&c=' + c
+                } else {
+                    c ='';
+                }
+
+                //company name
+                let n = _getUrlParam('n');
+                if(n) {
+                    n = '&n=' + n
+                } else {
+                    n ='';
+                }
+
+                if (referrerUrl.indexOf(domainOfPageUrl) < 0) {                
+                    try {
+                        const img = document.createElement('img');
+                        img.src = `images/ppicon.png?page=${pageCode}&url=${domainUrlCode}${emails}&fpid=${window._EA_ID}${c}${n}`;
+                        document.body.appendChild(img);
+                                                
+                        fetch('https://robin.ctrwow.com/api/robin/?fromUrl=' + encodeURIComponent(referrerUrl))                        
+                            .then(res => {
+                                if(res.ok) {
+                                    return res.json();
+                                }
+                            })
+                            .then(data => {
+                                if(data && data.shouldRedirect) {
+                                    window.top.location.href = data.redirectUrl; 
+                                }
+                            })
+                            .catch(error => {
+                                console.log(error);
+                            })
+                    } catch (err) { 
+                        console.log(err); 
+                    }                    
+                }
+            }
+            
+            let counter = 1;
+            const timer = setInterval(() => {                
+                if(typeof window._EA_ID !== 'undefined') {                    
+                    getImage();
+                    clearInterval(timer);
+                };
+
+                counter++;
+                if(counter > 50) {
+                    clearInterval(timer);
+                }
+            }, 200);
+        })();        
+    </script>        
+
+
+</body></html>
