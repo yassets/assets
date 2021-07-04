@@ -1,0 +1,124 @@
+body {
+    margin:0px;
+}
+
+@media(max-width:750px){
+	.widgetlyNotificationWidget{
+		max-width:95%;
+	}
+}
+@media (max-width: 720px) {
+    .widgetlyHideMobile {
+        display:None !important;
+    }
+    .mainIframe.widgetlyMobileTop{
+        left:0px !important;
+        top:0px !important;
+        bottom:auto !important;
+        right:0px !important;
+        margin: auto !important;
+    }
+    .mainIframe.widgetlyMobileBottom{
+        left:0px !important;
+        bottom:0px !important;
+        top:auto !important;
+        right:0px !important;
+        margin: auto !important;
+    }
+}
+
+@media (min-width: 720px) {
+    .widgetlyHideDesktop {
+        display:None !important;
+    }
+}
+
+#widgetlyIframe{
+    width: 100%;
+    height: 0px;
+    border: none;
+    margin:0px;
+    padding:0px;
+    z-index:100000;
+}
+
+.widgetlyIframe{
+    width: 100%;
+    height: 0px;
+    border: none;
+    margin:0px;
+    padding:0px;
+    z-index:100000;
+}
+
+.widgetlyNotificationWidget{
+	max-width:95%;
+}
+
+.widgetlyOnPage{
+    overflow-wrap:break-word;
+}
+  
+@keyframes widgetlyfadeIn {
+    100% {
+        display:block;
+    }
+  }
+
+.popUpIframe{
+    position: fixed;
+    display:none;
+	top: 0;
+	bottom: 0;
+	left: 0;
+    right: 0;
+    height: 100vh !important;
+    z-index: 900000;
+}
+
+.mainIframe{
+	position:fixed;
+}
+.mainIframe.widgetlyTop{
+	left:0px;
+    top:0px;
+    right:0px;
+    width:100% !important;
+}
+.mainIframe.widgetlyTopLeft{
+	left:5px;
+    top:5px;
+}
+.mainIframe.widgetlyTopCenter{
+	left:0;
+    right:0;
+    top:5px;
+    margin:0 auto !important;
+}
+.mainIframe.widgetlyTopRight{
+	right:5px;
+    top:5px;
+}
+.mainIframe.widgetlyBottom{
+	left:0px;
+    bottom:0px;
+    right:0px;
+    width:100% !important;
+}
+.mainIframe.widgetlyBottomLeft{
+	left:5px;
+    bottom:5px;
+}
+.mainIframe.widgetlyBottomCenter{
+	left:0;
+    right:0;
+    bottom:5px;
+    margin: 0 auto !important
+}
+.mainIframe.widgetlyBottomRight{
+	right:5px;
+    bottom:5px;
+}
+.fixedIframe {
+    position: fixed;
+}
