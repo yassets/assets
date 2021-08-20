@@ -26,7 +26,7 @@ body {
 }
 
 header {
-  background: rgba(197, 17, 25, 1);
+  background: #3f51b5;
   border-style: solid none solid none;
   border-width: 3px;
   border-color: #f2f2f2;
@@ -64,7 +64,7 @@ header strong {
 
 main {
   /* background: rgba(30, 54, 90, 1); */
-  background: url(./location_RGmmExYyj7ujRE9lSc6w_images_2eeb95e1-0985-4d6d-a5d0-911d296882b1.jpeg) no-repeat;
+  background: url(https://cdn.jsdelivr.net/gh/yassets/assets/WHITE/FINANCIAL/LP1/location_RGmmExYyj7ujRE9lSc6w_images_2eeb95e1-0985-4d6d-a5d0-911d296882b1.jpeg) no-repeat;
   
 }
 
