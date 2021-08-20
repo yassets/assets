@@ -1,0 +1,42 @@
+* {
+    font-family: "Arial", sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main-margin {
+    max-width: 750px;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 30px;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    font-size: 21px;
+  }
+  
+  h3 {
+    font-size: 18px;
+  }
+  
+  p,
+  li {
+    font-size: 14px;
+    margin-bottom: 16px;
+    line-height: 22px;
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .main-margin {
+      padding-left: 18px;
+      padding-right: 18px;
+    }
+  }
