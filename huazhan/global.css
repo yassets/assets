@@ -88,28 +88,28 @@ small {
 }
 @font-face {
     font-family: Souvenir;
-    src: url("https://cdn.globalrose.com/assets/fonts/souvenir-light.otf");
+    src: url("https://cdn.jsdelivr.net/gh/yassets/assets/huazhan/souvenir-light.otf");
     font-style: normal;
     font-weight: 400;
     font-display: swap;
 }
 @font-face {
     font-family: Souvenir;
-    src: url("https://cdn.globalrose.com/assets/fonts/souvenir-medium.otf");
+    src: url("https://cdn.jsdelivr.net/gh/yassets/assets/huazhan/souvenir-medium.otf");
     font-style: bold;
     font-weight: 700;
     font-display: swap;
 }
 @font-face {
     font-family: Avenir;
-    src: url("https://cdn.globalrose.com/assets/fonts/AvenirLTStd-Book.otf");
+    src: url("https://cdn.jsdelivr.net/gh/yassets/assets/huazhan/AvenirLTStd-Book.otf");
     font-style: normal;
     font-weight: 400;
     font-display: swap;
 }
 @font-face {
     font-family: Avenir;
-    src: url("https://cdn.globalrose.com/assets/fonts/AvenirLTStd-Black.otf");
+    src: url("https://cdn.jsdelivr.net/gh/yassets/assets/huazhan/AvenirLTStd-Black.otf");
     font-style: bold;
     font-weight: 700;
     font-display: swap;
